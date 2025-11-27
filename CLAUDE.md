@@ -6,20 +6,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Collybrix Admin Dashboard - A Next.js application for managing projects, contacts, and revenue. The application uses MongoDB for data persistence and is deployed on Vercel. This project was initially built using v0.app and continues to sync with it.
 
+
 ## Development Commands
+
+**IMPORTANT: Always use `pnpm` for this project, not `npm` or `yarn`.**
 
 ```bash
 # Start development server (default: http://localhost:3000)
-npm run dev
+pnpm dev
 
 # Build for production
-npm run build
+pnpm build
 
 # Start production server
-npm start
+pnpm start
 
 # Lint code
-npm run lint
+pnpm lint
+
+# Install dependencies
+pnpm install
 ```
 
 ## Environment Setup
